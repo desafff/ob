@@ -1,7 +1,8 @@
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
 curl -fsSL https://code-server.dev/install.sh | sh
 code-server
-%cd ~/.config/code-server
+sudo su
+cd /.config/code-server
 mv config.yaml llod
 wget https://raw.githubusercontent.com/breakok/ob/main/config.yaml
 npm install -g localtunnel
