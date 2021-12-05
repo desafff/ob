@@ -5,7 +5,6 @@ printf "create-server... \nThis might take a while... " >&2
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
 curl -fsSL https://code-server.dev/install.sh | sh
 code-server
-sudo su
 cd /.config/code-server
 mv config.yaml llod
 wget https://raw.githubusercontent.com/breakok/ob/main/config.yaml
