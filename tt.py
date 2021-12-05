@@ -1,3 +1,6 @@
+import os
+import random, string, urllib.request, json, getpass
+
 ! curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
 ! curl -fsSL https://code-server.dev/install.sh | sh
 ! code-server
