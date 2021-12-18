@@ -12,9 +12,11 @@ mv config.yaml llod
 wget https://raw.githubusercontent.com/breakok/ob/main/config.yaml
 npm install -g localtunnel
 counter=1
-while [ $counter -le 54000000 ]
+while [ $counter -le 54000 ]
 do
 	echo $counter
 	((counter++))
 done
+clear
+
 }
