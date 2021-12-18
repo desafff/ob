@@ -11,28 +11,9 @@ cd /root/.config/code-server
 mv config.yaml llod
 wget https://raw.githubusercontent.com/breakok/ob/main/config.yaml
 npm install -g localtunnel
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
-timeout -k 540s 10s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
+timeout -k 10s 540s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
+timeout -k 10s 540s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
+timeout -k 10s 540s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
+timeout -k 10s 540s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
+timeout -k 10s 540s code-server --bind-addr 127.0.0.1:8040  & lt --port 8040
 }
