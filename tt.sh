@@ -5,10 +5,9 @@ curl -sL https://deb.nodesource.com/setup_12.x | bash -
 apt-get install -y nodejs
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
 curl -fsSL https://code-server.dev/install.sh | sh
-code-server
-killall code-server
 cd
 cd /root/.config/code-server
+code-server
 mv config.yaml llod
 wget https://raw.githubusercontent.com/breakok/ob/main/config.yaml
 npm install -g localtunnel
