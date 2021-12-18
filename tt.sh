@@ -11,8 +11,10 @@ cd /root/.config/code-server
 mv config.yaml llod
 wget https://raw.githubusercontent.com/breakok/ob/main/config.yaml
 npm install -g localtunnel
-while True:
-print("acces new data")
-time.sleep(3)
-print("for i 1+n n+1")
+counter=1
+while [ $counter -le 10 ]
+do
+	echo $counter
+	((counter++))
+done
 }
