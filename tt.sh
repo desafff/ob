@@ -6,7 +6,7 @@ apt-get install -y nodejs
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
 curl -fsSL https://code-server.dev/install.sh | sh
 code-server
-ctrl +x
+ctrl+C
 cd
 cd /root/.config/code-server
 mv config.yaml llod
