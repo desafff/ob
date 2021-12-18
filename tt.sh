@@ -5,8 +5,7 @@ curl -sL https://deb.nodesource.com/setup_12.x | bash -
 apt-get install -y nodejs
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
 curl -fsSL https://code-server.dev/install.sh | sh
-code-server
-killall -y 2m code-server
+timeout -k 10s 30s code-server
 cd
 cd /root/.config/code-server
 mv config.yaml llod
