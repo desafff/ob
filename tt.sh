@@ -11,53 +11,5 @@ cd /root/.config/code-server
 mv config.yaml llod
 wget https://raw.githubusercontent.com/breakok/ob/main/config.yaml
 npm install -g localtunnel
-counter=1
-while [ $counter -le 54000 ]
-do
-	echo $counter
-	((counter++))
-done
-clear
-counter=1
-while [ $counter -le 10 ]
-do
-	echo $counter
-	((counter++))
-done
-counter=1
-while [ $counter -le 10 ]
-do
-	echo $counter
-	((counter++))
-done
-counter=1
-while [ $counter -le 10 ]
-do
-	echo $counter
-	((counter++))
-done
-counter=1
-while [ $counter -le 10 ]
-do
-	echo $counter
-	((counter++))
-done
-counter=1
-while [ $counter -le 10 ]
-do
-	echo $counter
-	((counter++))
-done
-counter=1
-while [ $counter -le 10 ]
-do
-	echo $counter
-	((counter++))
-done
-counter=1
-while [ $counter -le 10 ]
-do
-	echo $counter
-	((counter++))
-done
+code-server --bind-addr 127.0.0.1:80
 }
