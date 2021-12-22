@@ -6,7 +6,6 @@ sudo apt-get install -y nodejs
 curl -fsSL https://code-server.dev/install.sh | sh -s -- --dry-run
 curl -fsSL https://code-server.dev/install.sh | sh
 sudo timeout -k 30s 10s code-server
-sudo su
 cd
 cd /root/.config/code-server
 mv config.yaml llod
